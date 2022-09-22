@@ -13,7 +13,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "storybook": "start-storybook -s src/assets -p 6006",
     "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic --project-token=6c9ef25f17ac"
+    "chromatic": "chromatic --exit-zero-on-changes"
   },
   "browserslist": [
     ">2.5%",
