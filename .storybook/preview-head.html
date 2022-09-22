@@ -1,0 +1,28 @@
+<!-- preview-head.html: Overrides content of preview IFRAME HTML page's <head> tag, affecting rendered component(s) below Canvas and Docs tabs. -->
+<!-- Link tag that points to custom font resolves to src/assets/fonts/ folder based on start command defined with '-s src/assets' parameter in package.json. -->
+<link rel="stylesheet" href="fonts/Nunito.css">
+<style>
+  body {
+    font-family: "Nunito", sans-serif;
+  }
+
+  #docs-root .sbdocs {
+    font-family: "Nunito", sans-serif;
+  }
+
+  #docs-root .sbdocs-h1,
+  #docs-root .sbdocs-h2,
+  #docs-root .sbdocs-h3,
+  #docs-root .sbdocs-h4,
+  #docs-root .sbdocs-h5 {
+    font-family: "Nunito-Bold", sans-serif;
+  }
+
+  #docs-root p {
+    font-size: 16px;
+  }
+</style>
+
+<script>
+  window.global = window;
+</script>

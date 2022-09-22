@@ -1,0 +1,24 @@
+<!-- manager-head.html: Overrides content of ui IFRAME HTML page's <head> tag, affecting rendered component(s) below Canvas and Docs tabs. -->
+<!-- Link tag that points to custom font resolves to src/assets/fonts/ folder based on start command defined with '-s src/assets' parameter in package.json. -->
+<link rel="stylesheet" href="fonts/Nunito.css">
+<style>
+    body {
+        font-family: "Nunito", sans-serif;
+    }
+
+    #storybook-explorer-menu .sidebar-item+a {
+        height: 18px;
+    }
+
+    #storybook-explorer-menu .sidebar-item svg {
+        margin-top: 0;
+        width: 14px;
+        height: 14px;
+        color: #000;
+    }
+
+    #storybook-explorer-menu .sidebar-subheading {
+        color: #8e0072;
+        letter-spacing: 0.15em;
+    }
+</style>

@@ -1,0 +1,118 @@
+import { Meta, ColorPalette, ColorItem } from "@storybook/addon-docs";
+
+import { themes, ThemeProvider, convert, ensure } from "@storybook/theming";
+
+<Meta
+  title="Foundation/Color"
+  parameters={{
+    viewMode: "docs",
+    previewTabs: {
+      canvas: { hidden: true },
+    },
+  }}
+/>
+
+WIP WIP WIP WIP
+
+# Color
+
+## Principles
+
+### Color is meaningful
+
+Color alone is not always enough to convey meaning, but it can help support the intended message. Use colors meaningfully to help users identify status, see actions, or indicate next steps.
+
+### Color supports hierarchy
+
+Color can be used to enhance and separate levels of important information. Use colors to draw a user's focus and attention to particular content areas.
+
+### Color is accessible
+
+Colors that meet standard contrast ratios provide accessible interfaces for a wide range of our users. Use accessible color combinations to increase usability and readability.
+
+- primary
+- secondary
+- tertiary
+
+<!-- Colors.stories.mdx -->
+
+<!-- Colors.stories.mdx -->
+
+<ColorPalette>
+  <ColorItem
+    title="theme.color.primary"
+    subtitle="Primary Colors"
+    colors={{
+      darkest: "#244a45",
+      darker: "#366f68",
+      dark: "#48948b",
+      base: "#5ab9ae",
+      light: "#7ac7be",
+      lighter: "#9cd5ce",
+      lightest: "#bde3de",
+    }}
+  />
+  <ColorItem
+    title="theme.color.secondary"
+    subtitle="Secondary Colors"
+    colors={{
+      darkest: "#38002d",
+      darker: "#550044",
+      dark: "#71005b",
+      base: "#8e0072",
+      light: "#a4328e",
+      lighter: "#bb66aa",
+      lightest: "#d199c6",
+    }}
+  />
+    <ColorItem
+    title="theme.color.neutral"
+    subtitle="Neutral Colors"
+    colors={{
+      darkest: "#2b3137",
+      darker: "#404953",
+      dark: "#56626f",
+      base: "#6c7b8b",
+      light: "#8995a2",
+      lighter: "#a6afb9",
+      lightest: "#c4cad0",
+    }}
+  />
+<ColorItem
+  title="theme.color.confirm"
+  subtitle="Confirm/Success"
+  colors={{
+    dark: "#084627",
+    base: "#15C26B",
+    light: "#E3F8ED",
+  }}
+/>
+<ColorItem
+  title="theme.color.error"
+  subtitle="Cancel/Error"
+  colors={{
+    dark: "#501212",
+    base: "#DD3131",
+    light: "#FBE6E6",
+  }}
+/>
+<ColorItem
+  title="theme.color.alert"
+  subtitle="Alert/Warn"
+  colors={{
+    dark: "#5C3F04",
+    base: "#FFAE0C",
+    light: "#FFF5E2",
+  }}
+/>
+<ColorItem
+  title="theme.color.info"
+  subtitle="Inform/Info"
+  colors={{
+    dark: "#0F2B3D",
+    inform: "#2A77AA",
+    light: "#E5EFF5",
+  }}
+/>
+
+</ColorPalette>

@@ -1,0 +1,35 @@
+import { Meta, Description } from "@storybook/addon-docs";
+
+<Meta
+  title="Foundation/Design Tokens"
+  parameters={{
+    viewMode: "docs",
+    previewTabs: {
+      canvas: { hidden: true },
+    },
+  }}
+/>
+
+# Design Tokens
+
+Design tokens are an abstraction of design decisions made to construct and maintain an application design system.
+
+Spacing, color, typography, styles and animation are represented as data. They are used in place of hard-coded values in order to ensure flexibility and unity across all our product experiences and platforms.
+
+Design tokens are directly integrated into our component library.
+
+### Global Tokens
+
+Global tokens are the primitive values in our design language, represented by context-agnostic names. Color palette, spacing, typography, and dimension values are all recorded as global tokens. These can be directly used, and are inherited by all other token types.
+
+<br />
+
+### Alias Tokens or Common Tokens
+
+Alias tokens relate to a specific context or abstraction. Aliases help communicate the intended purpose of a token, and are effective when a value with a single intent will appear in multiple places.
+
+<br />
+
+### Component Specific Tokens
+
+Component-specific tokens have the most specific component level context. They often inherit from alias or global tokens, but are named in a way that allows consumers to be as specific as possible in applying tokens in component development.

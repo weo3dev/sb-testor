@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("./opensans-vf_wdthwght-webfont.woff2") format("woff2"),
+    url("./opensans-vf_wdthwght-webfont.woff") format("woff");
+}
