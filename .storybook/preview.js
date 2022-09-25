@@ -1,3 +1,4 @@
+import "../src/styles/tf-base.scss";
 import tradefullTheme from "./TradefullTheme";
 
 // or global addParameters
